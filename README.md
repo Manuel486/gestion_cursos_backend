@@ -22,21 +22,10 @@ Para interactuar con la API, se requiere autenticación para los métodos de `PO
 - **Usuario**: `testUser123`
 - **Contraseña**: `Test@1234`
 
-## Clonar y Ejecutar Localmente
-
-Si prefieres ejecutar el proyecto en tu máquina local, sigue estos pasos:
-
-### Requisitos Previos
-
-- Tener **Python 3.x** instalado en tu máquina. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
-- Tener **pip** instalado (gestor de paquetes de Python).
-
-### Pasos para Clonar y Ejecutar el Proyecto
-
-1. **Clonar el Repositorio**
-
-   Abre una terminal y ejecuta el siguiente comando para clonar el repositorio en tu máquina local:
-
-   ```bash
-   git clone https://github.com/tu_usuario/gestion_cursos_backend.git
-
+### Rutas http
+| **Método HTTP** | **Descripción**                                             | **Uso Común**                                                    |
+|:----------------|:------------------------------------------------------------|:-----------------------------------------------------------------|
+| `GET`           | Recupera información (datos).                               | Obtener un recurso o una lista de recursos. Ejemplo: Obtener cursos. |
+| `POST`          | Crea un nuevo recurso.                                      | Crear un nuevo recurso. Ejemplo: Crear un curso.                |
+| `PUT`           | Actualiza o reemplaza un recurso existente.                 | Actualizar un recurso completo. Ejemplo: Actualizar un curso.   |
+| `DELETE`        | Elimina un recurso existente.                               | Eliminar un recurso. Ejemplo: Eliminar un curso.                |
